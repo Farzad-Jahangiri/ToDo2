@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.color-white{
+    color: white;
+}
+.header{
+    width: 50%;
+    padding-left: 25%;
+    padding-right: 25%;
+    margin-top: 50px;
+}
+.header-card{
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 2%;
+}
+.flex{
+    display: flex;
+}
+.flex-col{
+    flex-direction: column;
+}
+.flex-grow-1{
+    flex-grow: 1;
+}
+.flex-grow-2{
+    flex-grow: 2;
+}
+.flex-grow-3{
+    flex-grow: 3;
+}
+.gap-10{
+    gap: 10px;
+}
+.justify-center{
+
+    justify-content: center;
+}
+.justify-start{
+
+    justify-content: start;
+}
+.justify-end{
+
+    justify-content: end;
+}
+.align-center{
+
+    align-items: center;
+}
+.justify-between{
+
+    justify-content: space-between;
+}
+.h-96{
+    height: 24rem;
+}
+.h-2{
+    height: 2rem;
+}
+.border-radius-5{
+    border-radius: 5px;
+}
+.bg-green{
+    background-color: green;
+}
+.bg-white{
+    background-color: white;
+}
+.m-5{
+    margin: 5px;
+}
+.h-170px{
+    height: 170px;
+}
+.w-1{
+    width: 1rem;
+}
+.w-2{
+    width: 2rem;
+}
+.w-3{
+    width: 3rem;
+}
+.w-4{
+    width: 4rem;
+}
+.w-5{
+    width: 5rem;
+}
+.pointer{
+    cursor: pointer;
+}
+.scrol-y{
+    overflow-y: auto;
+}
+.fixed{
+    position: fixed;
+}
+.pl-1{
+    padding-left: 1rem;
+}
