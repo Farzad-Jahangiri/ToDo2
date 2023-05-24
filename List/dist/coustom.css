@@ -1,0 +1,65 @@
+.w-per-10{
+    width: 10%;
+}
+.w-per-20{
+    width: 20%;
+}
+.w-per-30{
+    width: 30%;
+}
+.w-per-40{
+    width: 40%;
+}
+.w-per-50{
+    width: 50%;
+}
+.w-per-60{
+    width: 60%;
+}
+.w-per-70{
+    width: 70%;
+}
+.w-per-80{
+    width: 80%;
+}
+.w-per-90{
+    width: 90%;
+}
+.w-per-100{
+    width: 100%;
+}
+.d{
+    display: flex;
+    flex-direction: column;
+}
+
+.disabled{
+
+}
+
+button{
+    width: 1.5rem;
+    height: 1.5rem;
+}
+
+.disabled {
+    opacity: 0.5;
+    pointer-events: none;
+    cursor: not-allowed;
+  }
+
+button:hover{
+    background-color: rgb(82, 93, 98);
+    border-radius: 100%;
+}
+
+.clicked{
+    animation: click .1s linear;
+}
+
+@keyframes click{
+    100%{
+        width: 2rem;
+        height: 2rem;
+    }
+}
