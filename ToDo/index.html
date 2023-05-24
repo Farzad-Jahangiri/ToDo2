@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="src/style.css">
+</head>
+<body>
+    <div class="header flex gap-10 h-2">
+        <input id="inputToDoTitle" type="text" class="flex-grow-3 border-radius-5 pl-1" placeholder="Todo title">
+        <input id="inputToDoDate" type="date" class="flex-grow-2 border-radius-5 pl-1">
+        <button id="submit" class="flex-grow-1 border-radius-5 bg-green color-white">Sub</button>
+    </div>
+    <div class="header flex gap-10 h-96">
+        <div id="Task" class="flex-grow-1 border-radius-5 scrol-y" style="background-color: rgb(96, 96, 246);">
+            <div class="flex justify-center">Task</div>
+        </div>
+        <div id="Doing" class="flex-grow-1 border-radius-5 scrol-y" style="background-color: rgb(246, 96, 96);">
+            <div class="flex justify-center">Doing</div>
+            
+        </div>
+        <div id="completed" class="flex-grow-1 border-radius-5 scrol-y" style="background-color: rgb(246, 246, 96);">
+            <div class="flex justify-center">Completed</div>
+            
+        </div>
+    </div>
+    <script src="/src/app.js"></script>
+</body>
+</html>
